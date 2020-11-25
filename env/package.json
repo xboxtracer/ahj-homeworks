@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "author": "xt",
   "license": "ISC",
